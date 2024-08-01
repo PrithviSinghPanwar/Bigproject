@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
+.colorblue{
+    color: #306598;
+}
+.bgblue{
+  background-color: #306598;  
+}
+.font{
+    font-size: 15px;
+    color: black;
+    font-weight: 500;
+}
+.boxshadow{
+    padding: 32px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 10px 3px #ccc;
+    margin-left: 25px;
+
+}
+/* header secion start */
+header{
+    position: sticky;
+    top: 0px;
+    width: 100%;
+    background-color: white;
+    z-index: 9;
+}
+
+header ul li a{
+    color: rgb(0, 66, 130) !important;
+    font-size: 14px !important;
+    margin-right: 10px;
+    font-weight: 700 !important;
+}
+
+.book{
+    background-image: linear-gradient(to right, #4a9c46, #3db138, #40d954, #5cc044, #4b9f45);
+    color: white;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+    padding: 7px 10px;
+    margin-right: 10px;
+}
+.navbar{
+    padding: 0px !important;
+}
+.num{
+    border:2px solid #f3842f;
+    background: transparent;
+    color: #f3842f;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 7px 10px;
+    margin-right: 50px;
+}
+
+/* header secion End */
+/* FORM PART START */
+[data-bs-target] {
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50%;
+}
+.form-section{
+    background-color: #306598;
+}
+.btn3{
+    background-image: linear-gradient(to right, #4a9c46, #3db138, #40d954, #5cc044, #4b9f45);
+    color:#fff;
+    border: none;
+    padding: 12px 50px 12px 50px;
+    font-size: 13px;
+    font-weight: 500; 
+}
+/* FORM PART END */
+.home-demo .item {
+    background: #ff3f4d;
+}
+.home-demo h2 {
+    color: #FFF;
+    text-align: center;
+    padding: 5rem 0;
+    margin: 0;
+    font-style: italic;
+    font-weight: 300;
+}
+/* WHY SMART CITY SLIDE START */
+#whyslide>.owl-dots{
+    display: none;
+}
+/* WHY SMART CITY SLIDE END */
+/* APPROVE PROJECT START */
+.border{
+    border-bottom: 1px solic #ccc;
+}
+  
+/* PRICE LIST START */
+.btn-outline-warning{
+    background-color: black;
+    border-radius: 10px;
+}
+.bgt{
+    background: #eaeaea ;
+}
+.fborder{
+    border: 1px solid #b0b0b052;
+}
+.form{
+    max-width: 50%;
+    margin: auto;
+}
+.frow{
+    display: flex;
+    width: 100%;
+}
+.fc1{
+    width: 50%;
+    padding: 10px;
+    font-size: 15px;
+    color: black;
+    font-weight: 500;
+}
+/* PRICE LIST END */
+ /* LIGHTBOX START */
+ .lighbox{
+    width: 500px;
+    left: 50%;
+    top: -500px;
+    transition: 0.5s;
+    transform: translate(-50%,-50%);
+    position: fixed;
+    background-color: white;
+    box-shadow: 0px 0px 10px 2px #ccc;
+    z-index: 9;
+}
+.showmodal{
+    top: 45%;
+}
+.border2{
+    border: 0.5px solid #ccc;
+    margin: 0pc 10px;
+}
+.lightbox-img{
+    padding-top: 26px;
+    display: flex;
+   justify-content: space-between;
+}
+.lightbox-img span{
+    font-size: 26px;
+    color: #c6b7b7;
+    margin-right: 20px;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+.lightbox-img img{
+    width: 170px;
+    padding-left: 20px;
+    
+}
+.table{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+}
+.table h3{
+    text-align: center;
+    font-size: 15px;
+     color: #aeb4b9;
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+.table input{
+     margin: 10px 10px;
+     padding:6px;
+     background-color: #f0f4f5;
+     border: 1px solid #ccc;
+}
+
+.table textarea{
+     margin: 10px 10px;
+     padding-top: 10px;
+     padding-left: 10px;
+     background-color: #f0f4f5;
+     padding-bottom: 55px;
+     resize: none;
+     border: 1px solid #ccc;
+}
+.table button{
+     width: 95%;
+     font-size: 15px;
+     margin-left: 10px;
+     margin-top: 20px;
+     margin-bottom: 10px;
+     padding: 12px;
+     border: none;
+     cursor: pointer;
+     color: white;
+     background-image: linear-gradient(to right, #4a9c46, #3db138, #40d954, #5cc044, #4b9f45);
+}
+.menu-content ul li a{
+    font-weight: bold;
+    font-size: 15px;
+    color: #282828;
+}
+.menu-content ul li a:hover{
+    color: #df7f18;
+}
+
+       /* LIGHTBOX END */
+        /* BOOK BTN START */
+
+.bookbtn{
+    font-size: 25px;
+    font-weight: 500;
+    background-image: linear-gradient(315deg, #f0af00 0%, #ffc820 74%);
+    border: none;
+    padding: 14px;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, .5);
+    padding-left: 80px;
+    padding-right: 80px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+   /* BOOK BTN START */
+   /* IMPORTANT LANDMARK PART START */
+   
+.faq{
+    
+    background-color: white;
+}
+.faq-middle{
+    margin: auto;
+}
+.faq-middle h3{
+    padding-top: 40px;
+    font-size: 25px;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+.faq-head{
+    margin: auto;
+    margin-bottom: 60px;
+}
+.heading {
+    border: none;
+    font-family: sans-serif;
+    margin-bottom: 15px;
+}
+.heading h3{
+    border-bottom: 1px solid black;
+    padding: 10px;
+    cursor: pointer;
+    position: relative;
+    font-size: 18px;
+     color: #292929;
+    font-weight: normal;
+    padding-left: 28px;
+}
+.heading h3 span{
+    position: absolute;
+    right: 840px;
+    font-size: 25px;
+    color: black;
+}
+.heading p{
+    color: #212529;
+    font-size: 13px;
+    line-height: 20px;
+    cursor: pointer;
+    padding-left: 20px;
+    font-weight: 500;
+     max-height: 0px;
+    visibility: hidden;
+}
+
+.showans{
+    padding: 10px;
+    visibility: visible !important;
+    max-height: 1000px !important;
+}
+   /* IMPORTANT LANDMARK PART END */
+.borderfull{
+     border: 4px solid  #306598;
+ }
+.pos{
+    position: relative;
+}
+.owl-prev{
+    position: absolute;
+    top: 0%;
+    left: -10%;
+    font-size: 45px !important;
+ }
+.owl-next{
+    position: absolute;
+    top: 0%;
+    right: -10%;
+    font-size: 45px !important;
+} 
+#medbtn[data-bs-target]{
+    width: 387px !important;
+    height: 65px !important;
+    border-radius: 10px;
+}
+#medbtn2[data-bs-target]{
+    width: 138px !important;
+    height: 37px !important;
+    border-radius: 10px;
+}
